@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import CardList from './CardList';
-import {robots} from './robots'; 
+// import {robots} from './robots'; 
 // we use this when we dont use api so we can set all states to robots
 import SearchBox from './SearchBox';
 
@@ -22,7 +22,6 @@ const App = () => {
             }
         })();
     },[]);
-
 
 
 
